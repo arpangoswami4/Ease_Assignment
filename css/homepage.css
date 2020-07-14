@@ -16,7 +16,6 @@ body{
 .r1r1{
 	width: 1200px;
 	margin: auto;
-	border: 1px solid black;
 	height: 90px;
 
 
@@ -28,18 +27,15 @@ body{
 .r2r1{
 	width: 1200px;
 	height: 50px;	
-	border: 1px solid yellow;	
 	margin: auto;
 }
 .r1r1c1{
 	width:800px;
-	border: 1px solid red;
 	height: 100%;
 	float: left;		 
 }
 .r1r1c2{
 	width:396px;
-	border: 1px solid green;
 	height: 100%;
 	float: left;
 	padding-top: 25px;	 
@@ -56,8 +52,12 @@ body{
 	float: left;
 	font-size: 15px;
 	color: white;
-	padding: 12px;
-	border: 1px solid black;
+	padding: 17px;
+	border-top: 0px;
+	border-right:1px solid black;
+	border-bottom: 0px;
+	border-left: 2px solid black;
+	text-align: center;   
 }
 .r2r1c1c2{
 	width: 100px;
@@ -65,8 +65,13 @@ body{
 	float: left;
 	font-size: 15px;
 	color: white;
-	padding: 12px;
-	border: 1px solid black;
+	padding: 17px;
+	border-top: 0px;
+	border-right:1px solid black;
+	border-bottom: 0px;
+	border-left: 1px solid black;  
+	text-align: center;   
+
 }
 .r2r1c1c3{
 	width: 100px;
@@ -74,18 +79,26 @@ body{
 	float: left;
 	font-size: 15px;
 	color: white;
-	padding: 12px;
-	border: 1px solid black;
+	padding: 17px;
+	border-top: 0px;
+	border-right:1px solid black;
+	border-bottom: 0px;
+	border-left: 1px solid black;
+	text-align: center;   
+
 }
 .r2r1c1c4{
 	width: 100px;
 	height: 100%;
 	float: left;
-	border: 1px solid black;
 	font-size: 15px;
 	color: white;
-	padding: 12px;
-
+	padding: 17px;
+	border-top: 0px;
+	border-right:1px solid black;
+	border-bottom: 0px;
+	border-left: 1px solid black;
+	text-align: center;   	
 }
 .r2r1c1c5{
 	width: 100px;
@@ -93,21 +106,28 @@ body{
 	float: left;
 	font-size: 15px;
 	color: white;
-	padding: 12px;
-	border: 1px solid black;
+	padding: 17px;
+	border-top: 0px;
+	border-right:1px solid black;
+	border-bottom: 0px;
+	border-left: 1px solid black;
+	text-align: center;   
 }
 .r2r1c1c6{
 	width: 110px;
 	height: 100%;
 	float: left;
-	border: 1px solid black;
 	font-size: 15px;
 	color: white;
-	padding: 12px 7px;
+	padding: 17px;
+	border-top: 0px;
+	border-right:2px solid black;
+	border-bottom: 0px;
+	border-left: 1px solid black;
+	text-align: center;   	
 }
 .r2r1c2{
 	padding-left: 120px;
-	border: 1px solid green;
 	float: left;
 	height: 100%;
 	width: 576px;	
@@ -172,7 +192,6 @@ body{
     width: 130px;
 }
 .r3{
-	border:1px solid maroon;
 	height:440px;
 	width: 100%;
 	background-image: url(../img/background_image1.jpg);
@@ -182,14 +201,12 @@ body{
 .r3c1{
 	width: 1200px;
 	height: 100%;
-	border:1px solid green;
 	margin: auto;
 	padding: 20px 0px 20px 210px;
 
 
 }
 .r3c1c1{
-	border:1px solid maroon;
 	height: 100%;
 	width: 610px;
 	background-color: rgba(232,231,230,0.8);
@@ -200,7 +217,6 @@ body{
 .form_heading{
 	width: 100%;
 	height: 80px;
-	border: 1px blue solid;
 }
 
 
@@ -209,64 +225,53 @@ body{
 	margin: 0px;
 	width: 100%;
 	height: 296px;
-	border: 1px yellow solid;
 }
 .r3c1c1r2cr1{
-	border: 1px red solid;
 	height: 70px;
 	width: 100%;
 	padding-bottom:12px; 
 }
 .r3c1c1r2cr2{
-	border: 1px pink solid;
 	height: 160px;
 	padding-bottom: 20px;
 }
 .r3c1c1r2cr3{
-	border: 1px green solid;
 	height: 50px;
 }
 .subject{
-	border: 1px black solid;
 	height: 100%;
 	float: left;
 	padding-right: 30px;
 	width: 300px; 
 }
 .topic{
-	border: 1px black solid;
 	height: 100%;
 	float: left;
 	width: 284px; 
 }
 .description{
-	border: 1px green solid;
 	height: 100%;
 	float: left;
 	padding-right: 30px;
 	width: 300px; 
 }
 .r3c1c1r2cr2c2{
-	border: 1px black solid;
 	height: 100%;
 	float: left;
 	width: 284px; 
 
 }
 .words_pages{
-	border: 1px green solid;
 	height: 75px;
 	padding-bottom: 12px;
 }
 .deadline{
-	border: 1px green solid;
 	height: 63px;
 }
 .small_headings{
 	height: 21px;
 	font-size: 17;
 	margin-bottom: 4px;
-	border: 1px red 1px;
 }
 .red{
 	color: red;
@@ -292,7 +297,6 @@ body{
 .word_count{
 	width: 100%;
 	height: 38px;
-	border: black 1px solid;
 }
 .minus_button
 {
@@ -345,13 +349,11 @@ body{
 {
 	width: 125px;
 	height: 100%;
-	border: 1px pink solid;
 	float: left;
 }
 .deadline_time_div{
 	margin-left: 22px;
 	width: 125px;
-	border: 1px pink solid;
 	height: 100%;
 	float: left;
 }
@@ -507,7 +509,6 @@ body{
 .r4c1{
 	width: 1200px;
 	height: 100%;
-	border:1px white solid;
 	margin:auto;
 }
 .r5{
@@ -525,19 +526,16 @@ body{
 	float: left;
 	width: 200px;
 	height: 100%;
-	border: 1px solid red;
 }
 .r4c1c2{
 	float: left;
 	width: 690px;
 	height: 100%;
-	border: 1px solid red;
 }
 .r4c1c3{
 	float: left;
 	width: 306px;
 	height: 100%;
-	border: 1px solid red;
 }
 .r4headings{
 	height: 45px;
@@ -577,7 +575,6 @@ body{
 	width: 220px;
 	float: left;
 	height: 100%;
-	border: 1px green solid;
 }
 .r4c1c3r2{
 	height: 200px;
@@ -586,7 +583,6 @@ body{
 .r4c1c3r2r1
 {
 	height: 110px;
-	border: 1px red solid;
 	padding-top: 5px;
 }
 .r4location{
