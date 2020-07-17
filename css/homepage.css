@@ -20,6 +20,12 @@ body{
 
 
 }
+.main_heading{
+	float: left;
+	width: 240px;
+	height: 77px;
+
+}
 .r2{
 	background-color: #40067a;
 	height: 50px;	
